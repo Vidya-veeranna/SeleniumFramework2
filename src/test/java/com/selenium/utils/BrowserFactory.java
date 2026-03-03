@@ -1,3 +1,4 @@
+package com.selenium.utils;
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
@@ -6,8 +7,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
-
-
 
 public class BrowserFactory {
     public static WebDriver startApplication(WebDriver driver,String browserName,String url){
